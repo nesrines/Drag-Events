@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dropzone {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  box-shadow: inset 1px 1px 10px 0px #000000;
+}
+.dropzone .box {
+  margin-left: 2.4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22%;
+  height: 250px;
+  cursor: grab;
+}
+
+#DragArea {
+  border: 3px solid #cc66aa;
+}
+#DragArea .box {
+  border: 1px solid #830057;
+  background-color: #ffcff9;
+}
+
+#DropArea {
+  border: 3px solid #0e00d3;
+}
+#DropArea .box {
+  border: 1px solid #000083;
+  background-color: #cfcfff;
+}/*# sourceMappingURL=style.css.map */
